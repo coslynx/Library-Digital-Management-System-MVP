@@ -1,0 +1,35 @@
+# Build artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Testing and coverage
+.pytest_cache/
+coverage/
+*.coveragerc
+*.coverage.*
+
+# Local environment variables
+.env
+.env.example
+
+# Docker configuration
+docker-compose.yml
+Dockerfile
+
+# Virtual environment
+.venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.out
+*~
+
+# Other generated files
+*.json
+*.yaml
